@@ -5,7 +5,7 @@ import java.io.IOException;
 import org.apache.http.client.fluent.Request;
 
 public class HttpDataService {
-	public static String url = "http://jsonip.com";
+	public static final String url = "http://jsonip.com";
 
 	public String getJsonIp() {
 		try {
